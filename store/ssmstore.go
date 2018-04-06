@@ -22,7 +22,7 @@ const (
 
 // validPathKeyFormat is the format that is expected for key names inside parameter store
 // when using paths
-var validPathKeyFormat = regexp.MustCompile(`^\/[A-Za-z0-9-_/]+$`)
+var validPathKeyFormat = regexp.MustCompile(`^\/[A-Za-z0-9-_/.]+$`)
 
 // validKeyFormat is the format that is expected for key names inside parameter store when
 // not using paths

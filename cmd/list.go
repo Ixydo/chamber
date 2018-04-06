@@ -6,8 +6,9 @@ import (
 	"strings"
 	"text/tabwriter"
 
+	"store"
+
 	"github.com/pkg/errors"
-	"github.com/segmentio/chamber/store"
 	"github.com/spf13/cobra"
 )
 

@@ -6,8 +6,9 @@ import (
 	"os"
 	"strings"
 
+	"store"
+
 	"github.com/pkg/errors"
-	"github.com/segmentio/chamber/store"
 	"github.com/spf13/cobra"
 )
 
